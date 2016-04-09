@@ -14,8 +14,20 @@ npm install --save prismic-react
 // are .asHtml methods
 import 'prismic-react';
 
-console.log(myDocument.asReact(linkResolver));
+myDocument.asReact();
 
-//
+// it supports passing a link resolver just like .asHtml
+myDocument.asReact(linkResolver);
 
+// documents also support getting fragments as react
+myDocument.getReact('article.summary' /* , linkResolver */);
+
+// which is just shorthand for calling .asReact on the fragments themselves
+myDocument.getStructuredText('article.summary').asReact();
 ```
+
+That's literally all there is to it.
+
+## License
+
+Apache 2.0
