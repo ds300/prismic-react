@@ -2,6 +2,10 @@
   "name": "prismic-react",
   "version": "0.0.1",
   "description": "Compiling Prismic.io content to ReactElements",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ds300/prismic-react.git"
+  },
   "main": "index.js",
   "engines": {
     "node": ">4"
