@@ -3,8 +3,11 @@
   "version": "0.0.1",
   "description": "Compiling Prismic.io content to ReactElements",
   "main": "index.js",
+  "engines": {
+    "node": ">4"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test"
   },
   "keywords": [
     "prismic",
@@ -17,6 +20,7 @@
     "prismic.io": "^2"
   },
   "devDependencies": {
-    "eslint": "^2.7.0"
+    "eslint": "^2.7.0",
+    "chai": "^3.5.0"
   }
 }
