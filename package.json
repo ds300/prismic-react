@@ -1,6 +1,6 @@
 {
   "name": "prismic-react",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Compiling Prismic.io content to ReactElements",
   "repository": {
     "type": "git",
